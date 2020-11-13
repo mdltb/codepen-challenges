@@ -1,0 +1,59 @@
+#contrast
+
+
+<html>
+<h1>Bridging the gap</h1>
+<h3>November challenge: Week 1</h3>
+<p>Practicing HTML5 & CSS for my portfolio</p>
+<p>...right now, it's not so bad...</p> 
+
+<style>
+  body{
+  background-image: url('https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+}
+
+h1 {
+  background-color: #f5f5f5;
+  opacity: .6;
+  color: black;
+  font-family: 'helvetica';
+  font-weight: extra-bold;
+  font-size: 18vh;
+  mix-blend-mode: screen;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 2vh;
+  left: 2vh;
+  margin-bottom: -45px;
+  padding: 30px;
+  transform: translate (-50%, 50%);
+}
+
+body {
+  font-family: 'libre baskerville';
+  background-color: black;
+  color: #f5f5f5;
+  display: grid;
+  place-items: center;
+}
+
+h3{
+  font-size: 8vh;
+  color: black;
+}
+
+p{
+  font-family: arial;
+  font-size: 5vh;
+  text-transform: lowercase;
+  color: yellow; 
+  margin-top: -3px;
+}
+
+</style>
+</html>
