@@ -1,0 +1,82 @@
+#repetition
+
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+<head>
+    <h1>It's turkey time!</h1>
+</head>
+<body>
+  <div class="grid">
+    <div class="griddy">
+    <h3>One</h3>
+    <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+    </div>
+    <div class="griddy">
+    <h3>Two</h3>
+    <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+    </div>
+    <div class="griddy">
+    <h3>Three</h3>
+    <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg"> <br>
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+    </div>
+    <div class="griddy">  
+    <h3>Five</h3>
+    <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg"> <br>
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg"> <br>
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+    </div>
+    <div class="griddy">  
+    <h3>Eight</h3>
+    <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg"> <br>
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg"> <br>
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg"> <br>
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+      <img class="turkey" src="https://www.flaticon.com/svg/static/icons/svg/1998/1998807.svg">
+    </div>
+   
+</body>
+
+<style>
+h1{
+  font-family: courier;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 5px 20px gray;
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+  color: crimson;
+  font-size: 40px;
+}
+
+.turkey{
+  height: 3em;
+  width: 3em;
+  padding: 5px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 30px;
+}
+
+.griddy{
+  text-align: center;
+  padding: 20px;
+  background-color: #F4F4F1;
+}
+</style>
+
+</html>
