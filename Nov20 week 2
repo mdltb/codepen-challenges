@@ -1,1 +1,92 @@
 #spacing
+
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Unica+One&display=swap" rel="stylesheet">
+
+
+<div class='hi'>
+  <h1>November challenge: <br> Week 2</h1>
+    <h3>Spacing</h3>
+</div>
+<body class='con'>
+  <div class='gen'>
+    <p>General text, as seen in the body. In this section, we see it's seated as general information. This is less important to the story.
+  </div>
+  <div class='art'>
+    <h4>Look here</h4>
+    <p>What did you see when you looked here? Using the different style of text to emphasize the story point. <br> What is the point if the point isn't empasized. Is this pointing to anything? The focus section pointing to the spacing is spaced, focused, and pointed. <br> Looking deeper at the spacing we can learn that space is best used only in the best spaces, like this space or in space.</p>
+  </div>
+</body>
+
+<style>
+body{
+  background-color: black;
+  margin: 50px;
+}
+
+.hi{
+  background-color: #59d4a9;
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+} 
+
+h1{
+  color: black;
+  font-family: unica one, cursive;
+  float: left;
+  font-size: 85px;
+  margin-left: -30px;
+}
+
+h3{
+  color: #57f6eC;
+  font-family: raleway;
+  float: right;
+  text-transform: lowercase;
+  text-shadow: 2px 2px 3px #6fea9d;
+  font-size: 100px;
+  margin-right: 50px;
+}
+
+.con{
+  column-count: 2;  
+  column-gap: 2px;
+}
+
+.gen{
+  font-family: raleway;
+  color: white;
+  opacity: .7;
+  margin-top: 30%;
+  width: 55%;
+  padding-left: 50px;
+  line-height: 40px;
+}
+
+.art{
+  background-color: #dfcf9f;
+  padding: 35px;
+  width: 275px;
+  height: 400px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+h4{
+  color: #6fea9d;
+  text-shadow: 2px 2px #67f6ec;
+  font-family: unica one, cursive;
+  letter-spacing: 1px;
+  font-size: 43px;
+}
+
+p{
+  font-family: raleway;
+  text-align: justify;
+}
+</style>
+
+</html>
